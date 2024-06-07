@@ -18,7 +18,7 @@ class MyCallback(CallbackData, prefix="my"):
 async def cmd_start(message: types.Message):
     builder = InlineKeyboardBuilder()
     builder.row(types.InlineKeyboardButton(
-        text="MeetUp", web_app=WebAppInfo(url='https://6ca0-83-142-12-120.ngrok-free.app'))
+        text="MeetUp", web_app=WebAppInfo(url='https://f1e3-83-142-11-113.ngrok-free.app'))
     )
     builder.row(types.InlineKeyboardButton(
         text="Ответы на вопросы", 
